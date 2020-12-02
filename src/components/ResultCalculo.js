@@ -11,7 +11,7 @@ export default function ResultCalculo(props){
                     <Text style={styles.title}>Resumo</Text>
                     <DataResult title={'Quantidade solicitada:'} value={`R$ ${capital}`} />
                     <DataResult title={'Porcentagem %:'} value={`${interest} %`} />
-                    <DataResult title={'Prazos:'} value={`${months} meses`} />
+                    <DataResult title={'Prazo:'} value={`${months} meses`} />
                     <DataResult title={'Pagamento mensal:'} value={`R$ ${total.monthlyFee}`} />
                     <DataResult title={'Pagamento total:'} value={`R$ ${total.totalPayable}`} />
                 </View>    
